@@ -1,0 +1,21 @@
+
+#mainContainer {
+  margin-left: auto;
+  margin-right:auto;
+  width: 500px;
+  height: 200px;
+  background-color: yellow;
+}
+
+#mainTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opCell {
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+}

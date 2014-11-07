@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<link type="text/css" rel="stylesheet" href="DataTable.css">
+<script type="text/javascript" src="../jquery-1.11.1.js"></script>
+<script type="text/javascript" src="DataTable.js"></script>
+<title>Data Table</title>
+</head>
+
+<body>
+
+<div id="mainContainer">
+  <table border="1" id="mainTable">
+    <thead>
+      <th>唱片名</th>
+      <th>年份</th>
+      <th>作者</th>
+      <th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    </thead>
+    <tbody>
+      <tr>
+	<td>Thriller</td>
+	<td>1982</td>
+	<td>Michael Jackson</td>
+	<td class="opCell" onclick="delRow(this, event)">删除</td>
+      </tr>
+      <tr>
+	<td>AC/DC</td>
+	<td>1980</td>
+	<td>Back in Black</td>
+	<td class="opCell" onclick="delRow(this, event)">删除</td>
+      </tr>
+      <tr>
+	<td>Guns N' Roses</td>
+	<td>1987</td>
+	<td>Appetite for Destruction</td>
+	<td class="opCell" onclick="delRow(this, event)">删除</td>
+      </tr>
+      <tr>
+	<td><input type="text" id="albumInput" class="input" /></td>
+	<td><input type="text" id="yearInput" class="input" /></td>
+	<td><input type="text" id="authorInput" class="input" /></td>
+	<td class="opCell" onclick="addRow()">增加</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+</div>
+
+<hr>
+<address></address>
+</body>
+</html>
